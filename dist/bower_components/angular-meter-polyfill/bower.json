@@ -1,0 +1,35 @@
+{
+  "name": "angular-meter-polyfill",
+  "version": "0.2.1",
+  "authors": [
+    "Pasquale Lisena <pasq.lisena@gmail.com>"
+  ],
+  "description": "HTML5 <meter> polyfill for AngularJS",
+  "homepage": "https://github.com/pasqLisena/angular-meter-polyfill",
+  "keywords": [
+    "html5",
+    "meter",
+    "polyfill",
+    "angularjs"
+  ],
+  "main": [
+    "dist/angular-meter-polyfill.js",
+    "dist/angular-meter-polyfill.css"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pasqLisena/angular-meter-polyfill.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "brunch-config.*"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.5"
+  }
+}
